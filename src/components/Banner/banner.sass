@@ -1,0 +1,56 @@
+@use '../../Styles/variables'
+
+
+@mixin font-title()
+  font-style: italic
+  font-size: 24px
+  background-color: #f1f1f1
+  line-height: 45px
+
+@mixin button-style ()
+  color: variables.$secundary-color
+  padding: 1em
+  border: solid 2px variables.$secundary-color
+  border-radius: 15px
+  width: 200px
+  text-decoration: none
+  margin: 15px 25px
+  &:hover
+    border: solid 2.5px 
+    font-weight: bold
+
+.banner
+  @include font-title
+  text-align: center
+  color: gray
+  padding: .5em
+  img
+    width:100%
+    border-radius: 0px 100px
+  h2
+    margin: 0
+    padding: .2em
+    color: red
+    animation: rotation 5s infinite
+  h1
+    animation: rotation 5s infinite
+    color: red
+  h4
+    font-style: italic
+    color: gray
+  
+  .links_container
+    a
+      @include button-style
+  a
+    @include button-style
+    display: inline-block
+
+  @keyframes rotation 
+    from
+      transform: rotateY(360deg)
+
+    to
+      transform: rotateY(0deg)
+
+  
