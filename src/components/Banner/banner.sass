@@ -34,12 +34,18 @@
   h1
     animation: rotation 5s infinite
     color: red
+    line-height: 50px
+    text-shadow: 12px 15px 5px
   h4
     font-style: italic
+    padding: 10px
     color: variables.$secundary-color
+    box-shadow: 8px 8px 8px gray
+
   p
     color: variables.$secundary-color
-    margin: 10px
+    margin: 40px
+
   
   .links_container
     a
@@ -47,6 +53,7 @@
   a
     @include button-style
     display: inline-block
+    box-shadow: 8px 8px 8px gray
 
   @keyframes rotation 
     from
