@@ -15,7 +15,7 @@ const Banner = () => {
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
       </h4>
       <h1>
-        Meliny Sara & Wesley Silva
+        Meliny Sara  <br/> & <br/> Wesley Silva
       </h1>
       <p>
         Convidam para cerimônia de seu casamento em um culto de glorificação a Deus

@@ -33,13 +33,13 @@
     color: variables.$secundary-color
   h1
     animation: rotation 5s infinite
-    color: red
+    color: variables.$terciary-color
     line-height: 50px
-    text-shadow: 12px 15px 5px
+    text-shadow: 12px 15px 8px
   h4
     font-style: italic
     padding: 10px
-    color: variables.$secundary-color
+    color: variables.$terciary-color
     box-shadow: 8px 8px 8px gray
 
   p
@@ -50,10 +50,15 @@
   .links_container
     a
       @include button-style
+      color: variables.$secundary-color
+
   a
     @include button-style
     display: inline-block
     box-shadow: 8px 8px 8px gray
+    color: variables.$secundary-color
+    &:hover
+      color: variables.$terciary-color
 
   @keyframes rotation 
     from
