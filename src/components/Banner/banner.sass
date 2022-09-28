@@ -27,7 +27,13 @@
   img
     width:100%
     border-radius: 0px 60px
-    
+  .infinite 
+    color: #daa520
+    animation: infinito 3s infinite
+    border: solid 1px 
+    border-radius: 100px
+    margin: 0
+    padding: 5px
   h2
     margin: 0
     padding: .2em
@@ -64,9 +70,13 @@
 
   @keyframes rotation 
     from
-      transform: rotateY(360deg)
-
-    to
       transform: rotateY(0deg)
 
-  
+    to
+      transform: rotateY(360deg)
+
+  @keyframes infinito
+    from 
+      transform: rotate(0deg)
+    to 
+      transform: rotate(360deg)

@@ -1,16 +1,18 @@
 import './banner.sass';
 import {ImWhatsapp} from 'react-icons/all';
 import {ImLocation} from 'react-icons/all';
-import {GiPresent} from 'react-icons/all'
+import {GiPresent} from 'react-icons/all';
+import {IoInfiniteSharp} from 'react-icons/all';
 
 
 const Banner = () => {
 
-  // const imagem = '../src/assets/Wesley & Meliny.svg'
+  const perfil = '../src/assets/Wesley & Meliny.svg'
 
   return (
     <div className='banner'>
-      <img src="../src/assets/Wesley & Meliny.svg" alt='Fotografia de perfil dos noivos' />
+      <img src={perfil} alt='Fotografia de perfil dos noivos' />
+      <IoInfiniteSharp className='infinite' size={120} />
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
       </h4>
