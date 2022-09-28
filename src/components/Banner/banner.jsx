@@ -6,11 +6,11 @@ import {GiPresent} from 'react-icons/all'
 
 const Banner = () => {
 
-  const imagem = '../src/assets/Wesley & Meliny.svg'
+  // const imagem = '../src/assets/Wesley & Meliny.svg'
 
   return (
     <div className='banner'>
-      <img src={imagem} alt='Fotografia de perfil dos noivos' />
+      <img src="../src/assets/Wesley & Meliny.svg" alt='Fotografia de perfil dos noivos' />
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
       </h4>
@@ -22,7 +22,7 @@ const Banner = () => {
       </p>
       <p>Realizar-se no dia:</p>
       <h1>
-        03 de março de 2023
+        03 de Março de 2023
       </h1>
       <h2>
         Às 19:30 horas
