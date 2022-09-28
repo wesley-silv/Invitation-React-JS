@@ -6,7 +6,7 @@ import {GiPresent} from 'react-icons/all'
 
 const Banner = () => {
 
-  const imagem = '../src/assets/Wesley & Meliny.jpg'
+  const imagem = '../src/assets/Wesley & Meliny.svg'
 
   return (
     <div className='banner'>
