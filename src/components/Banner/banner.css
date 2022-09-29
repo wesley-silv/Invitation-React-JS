@@ -1,0 +1,127 @@
+.banner {
+  font-style: italic;
+  font-size: 24px;
+  background-color: #f1f1f1;
+  line-height: 45px;
+  text-align: center;
+  color: #4d3147;
+  padding: 1.5em 1em;
+}
+.banner img {
+  width: 100%;
+  border-radius: 0px 60px;
+}
+.banner .infinite {
+  color: #daa520;
+  -webkit-animation: infinito infinite 5s linear;
+          animation: infinito infinite 5s linear;
+  border: solid 5px;
+  border-radius: 100px;
+  margin: 0;
+  padding: 10px;
+}
+.banner .simbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .simbol hr {
+  border: solid 10px #daa520;
+  width: 25%;
+}
+.banner h2 {
+  margin: 0;
+  padding: 0.2em;
+  color: #4d3147;
+}
+.banner h1 {
+  -webkit-animation: rotation infinite 5s linear;
+          animation: rotation infinite 5s linear;
+  color: #daa520;
+  line-height: 50px;
+  text-shadow: 12px 15px 8px;
+  font-family: "Dancing Script", cursive;
+}
+.banner h4 {
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 10px;
+  color: red;
+  font-family: "Dancing Script", cursive;
+  box-shadow: 8px 8px 8px gray;
+}
+.banner p {
+  color: #4d3147;
+  margin: 40px;
+}
+.banner .FaRegHandPointDown {
+  color: #4d3147;
+}
+.banner .FaRegHandPointDown:hover {
+  color: #daa520;
+}
+.banner .links_container a {
+  color: #4d3147;
+  padding: 1em;
+  border: solid 2px #4d3147;
+  border-radius: 15px;
+  width: 200px;
+  text-decoration: none;
+  margin: 15px 25px;
+  color: #4d3147;
+}
+.banner .links_container a:hover {
+  border: solid 2.5px;
+  font-weight: bold;
+}
+.banner a {
+  color: #4d3147;
+  padding: 1em;
+  border: solid 2px #4d3147;
+  border-radius: 15px;
+  width: 200px;
+  text-decoration: none;
+  margin: 15px 25px;
+  display: inline-block;
+  box-shadow: 8px 8px 8px gray;
+  color: #4d3147;
+}
+.banner a:hover {
+  border: solid 2.5px;
+  font-weight: bold;
+}
+.banner a:hover {
+  color: #daa520;
+}
+@-webkit-keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes infinito {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes infinito {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}/*# sourceMappingURL=banner.css.map */

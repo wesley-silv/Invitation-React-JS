@@ -28,7 +28,7 @@
     border-radius: 0px 60px
   .infinite 
     color: #daa520
-    animation: infinito 3s infinite
+    animation: infinito infinite 5s linear
     border: solid 5px 
     border-radius: 100px
     margin: 0
@@ -45,7 +45,7 @@
     padding: .2em
     color: variables.$secundary-color
   h1
-    animation: rotation 5s infinite
+    animation: rotation infinite 5s linear
     color: variables.$terciary-color
     line-height: 50px
     text-shadow: 12px 15px 8px
@@ -81,12 +81,11 @@
   @keyframes rotation 
     from
       transform: rotateY(0deg)
-
     to
       transform: rotateY(360deg)
 
   @keyframes infinito
     from 
-      transform: rotate(0deg)
+      transform: rotateY(0deg)
     to 
-      transform: rotate(360deg)
+      transform: rotateY(360deg)
