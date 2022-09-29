@@ -15,7 +15,7 @@ const Banner = () => {
       <img src={perfil} alt='Fotografia de perfil dos noivos' />
       <section className='simbol'>
       <hr/>
-      <RiHeartsFill className='infinite' size={120} />
+      <RiHeartsFill className='infinite' size={100} />
       <hr/>
       </section>
       <h4>
