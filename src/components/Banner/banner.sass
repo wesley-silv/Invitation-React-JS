@@ -18,7 +18,6 @@
   &:hover
     border: solid 2.5px 
     font-weight: bold
-
 .banner
   @include font-title
   text-align: center
@@ -30,10 +29,17 @@
   .infinite 
     color: #daa520
     animation: infinito 3s infinite
-    border: solid 1px 
+    border: solid 5px 
     border-radius: 100px
     margin: 0
-    padding: 5px
+    padding: 10px
+  .simbol
+    display: flex
+    justify-content: center
+    align-items: center
+    hr
+      border: solid 10px variables.$terciary-color
+      width: 250px
   h2
     margin: 0
     padding: .2em
@@ -43,18 +49,22 @@
     color: variables.$terciary-color
     line-height: 50px
     text-shadow: 12px 15px 8px
+    font-family: "Dancing Script", cursive
+
   h4
     text-transform: uppercase
     font-style: italic
     padding: 10px
-    color: variables.$terciary-color
+    color: red
+    font-family: "Dancing Script", cursive
     box-shadow: 8px 8px 8px gray
-
   p
     color: variables.$secundary-color
     margin: 40px
-
-  
+  .FaRegHandPointDown
+    color: variables.$secundary-color
+    &:hover
+      color: #daa520
   .links_container
     a
       @include button-style
