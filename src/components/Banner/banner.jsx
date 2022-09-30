@@ -9,8 +9,7 @@ import {FaRegHandPointDown} from 'react-icons/all';
 const Banner = () => {
 
   //const perfil = '../src/assets/Wesley & Meliny.svg'
-  const perfil2 = '../src/assets/Meliny & Wesley.jpg'
-
+  const perfil2 = '../src/Meliny & Wesley.jpg'
   return (
     <div className='banner'>
       <img src={perfil2} alt='Fotografia de perfil dos noivos' />
@@ -44,7 +43,7 @@ const Banner = () => {
           <ImLocation size={30} />
           Localização
         </a>
-        <a href='https://wa.me/553492540828?text= Olá Wesley, estou entrando em contato para confirmar a minha participação em seu casamento.' alt='' title='Confirmação de presença' target='blank'><ImWhatsapp size={30}/>  Confirmar</a>
+        <a href='https://wa.me/553492540828?text=Olá Meliny e Wesley, obrigado pelo convite, venho confirmar a minha presença no casamento de voçês.' alt='' title='Confirmação de presença' target='blank'><ImWhatsapp size={30}/>  Confirmar</a>
       </div>
       <a href='' alt='Logo de presentes' title='Presentear' target='blank'>
         <GiPresent size={36}/>

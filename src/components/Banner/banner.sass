@@ -62,6 +62,7 @@
     color: variables.$secundary-color
     margin: 40px
   .FaRegHandPointDown
+    animation: indication infinite 1s linear
     color: variables.$secundary-color
     &:hover
       color: #daa520
@@ -89,3 +90,10 @@
       transform: rotateY(0deg)
     to 
       transform: rotateY(360deg)
+
+  @keyframes indication 
+    from 
+      padding: 0
+    to 
+      padding: .5em 0
+      
