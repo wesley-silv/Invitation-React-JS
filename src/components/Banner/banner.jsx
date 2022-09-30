@@ -8,11 +8,11 @@ import {FaRegHandPointDown} from 'react-icons/all';
 
 const Banner = () => {
 
-  const perfil = '../src/assets/Wesley & Meliny.svg'
+  //const perfil = '../src/assets/Wesley & Meliny.svg'
 
   return (
     <div className='banner'>
-      <img src={perfil} alt='Fotografia de perfil dos noivos' />
+      <img src="../src/assets/Wesley & Meliny.svg" alt='Fotografia de perfil dos noivos' />
       <section className='simbol'>
       <hr/>
       <RiHeartsFill className='infinite' size={100} />
