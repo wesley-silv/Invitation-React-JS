@@ -23,12 +23,11 @@
   @include font-title
   text-align: center
   color: variables.$secundary-color
-  border: solid 7px variables.$terciary-color
-  padding: 1.5em 0
   img
     width:100%
-    border-radius: 0px 60px
-    margin-bottom: .5em
+    padding: .5em
+    box-sizing: border-box
+    border-radius: 20px
   .givineflower
     margin: 0 auto
   .infinite 
@@ -38,13 +37,12 @@
     border-radius: 100px
     margin: 0
     padding: 10px
+  .main 
+    padding: 1em 1.2em
   .simbol
     display: flex
     justify-content: center
     align-items: center
-    hr
-      border: solid 10px variables.$terciary-color
-      width: 25%
   h2
     margin: 0
     padding: .2em
@@ -68,13 +66,14 @@
     margin: 40px
   .FaRegHandPointDown
     color: variables.$secundary-color
+    justify-content: center
+    animation: presencupdown infinite 1s linear
     &:hover
       color: #daa520
   .links_container
     a
       @include button-style
       color: variables.$secundary-color
-
   a
     @include button-style
     display: inline-block
@@ -94,3 +93,10 @@
       transform: rotateY(0deg)
     to 
       transform: rotateY(360deg)
+
+  @keyframes presencupdown
+    from 
+      opacity: .2
+    to 
+      opacity: 1
+

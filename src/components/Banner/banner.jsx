@@ -9,11 +9,12 @@ import {GiVineFlower} from 'react-icons/gi'
 
 const Banner = () => {
 
-  const perfil = '../src/assets/Wesley & Meliny.svg'
-  const perfil2 = '../src/Meliny & Wesley.jpg'
+  const perfil = '../src/assets/Meliny & Wesley.jpg'
   return (
     <div className='banner'>
-      <img src={perfil2} alt='Fotografia de perfil dos noivos' />
+      <img src={perfil} alt='Fotografia de perfil dos noivos' />
+      <main className='main'>
+
       <section className='simbol'>
       <GiVineFlower size={35} color="#daa520" className='givineflower'/>
       <GiVineFlower size={35} color="#daa520"className='givineflower'/>
@@ -34,14 +35,14 @@ const Banner = () => {
       <p>
         Convidam para cerimônia de seu casamento em um culto de glorificação a Deus
       </p>
-      <p>Realizar-se no dia:</p>
+      <p> A realizar-se no dia:</p>
       <h1>
         03 de Março de 2023
       </h1>
       <h2>
         Às 19:30 horas
       </h2>
-      <p>
+     <p>
         Clique para acessar
       </p>
       <FaRegHandPointDown className='FaRegHandPointDown' size={40}/>
@@ -56,6 +57,7 @@ const Banner = () => {
         <GiPresent size={36}/>
         Presentear
       </a>
+      </main>
     </div>
   )
 }
