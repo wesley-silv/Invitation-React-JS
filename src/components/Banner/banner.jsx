@@ -16,15 +16,15 @@ const Banner = () => {
       <main className='main'>
 
       <section className='simbol'>
-      <GiVineFlower size={35} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <RiHeartsFill className='infinite' size={100} />
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
-      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <RiHeartsFill className='infinite' size={95} />
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
       </section>
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
