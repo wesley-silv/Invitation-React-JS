@@ -4,19 +4,26 @@ import {ImLocation} from 'react-icons/all';
 import {GiPresent} from 'react-icons/all';
 import {RiHeartsFill} from 'react-icons/all';
 import {FaRegHandPointDown} from 'react-icons/all';
+import {GiVineFlower} from 'react-icons/gi'
 
 
 const Banner = () => {
 
-  //const perfil = '../src/assets/Wesley & Meliny.svg'
+  const perfil = '../src/assets/Wesley & Meliny.svg'
   const perfil2 = '../src/Meliny & Wesley.jpg'
   return (
     <div className='banner'>
       <img src={perfil2} alt='Fotografia de perfil dos noivos' />
       <section className='simbol'>
-      <hr/>
+      <GiVineFlower size={35} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
       <RiHeartsFill className='infinite' size={100} />
-      <hr/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
+      <GiVineFlower size={35} color="#daa520"className='givineflower'/>
       </section>
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
