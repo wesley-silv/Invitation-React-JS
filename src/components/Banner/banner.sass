@@ -27,11 +27,11 @@
     width:100%
     padding: .5em .5em 0
     box-sizing: border-box
-    border-radius: 20px
+    border-radius: 50px
   .givineflower
   .infinite 
     color: #daa520
-    animation: infinito infinite 5s linear
+    animation: infinito infinite 7s linear
     border: solid 5px 
     border-radius: 100px
     margin: 0
@@ -47,10 +47,11 @@
     padding: .2em
     color: variables.$secundary-color
   h1
-    animation: rotation infinite 5s linear
+    animation: rotation infinite 7s linear
     color: variables.$terciary-color
     line-height: 50px
-    text-shadow: 12px 15px 5px 
+    letter-spacing: 3px
+    text-shadow: 12px 15px 5px
     font-family: "Dancing Script", cursive
 
   h4
@@ -60,8 +61,8 @@
     padding: 20px
     color: red
     font-family: "Dancing Script", cursive
-    text-shadow: 5px 5px 5px
-    box-shadow: 8px 8px 8px gray
+    text-shadow: 5px 5px 5px gold
+    box-shadow: 8px 8px 8px variables.$secundary-color
   p
     color: variables.$secundary-color
     margin: 40px
@@ -78,7 +79,7 @@
   a
     @include button-style
     display: inline-block
-    box-shadow: 8px 8px 8px gray
+    box-shadow: 8px 8px 8px variables.$secundary-color
     color: variables.$secundary-color
     &:hover
       color: variables.$terciary-color

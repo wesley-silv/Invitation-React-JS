@@ -13,7 +13,7 @@ import {GiVineFlower} from 'react-icons/gi'
 const Banner = () => {
 
   const profile = {
-    imagem: '../imagens/Meliny & Wesley.svg',
+    imagem: '../public/imagens/Meliny & Wesley.svg',
   }
   const links = {
     localization: 'https://www.google.com.br/maps/place/Av.+Dom+Jos%C3%A9+Andr%C3%A9+Coimbra,+1520+-+Marciano+Brand%C3%A3o,+Patroc%C3%ADnio+-+MG,+38740-000/@-18.9446518,-47.0045441,15z/data=!3m1!4b1!4m5!3m4!1s0x94afba6190720015:0x1c1d6cc851af332d!8m2!3d-18.944652!4d-46.9957893',
