@@ -13,7 +13,7 @@ import {GiVineFlower} from 'react-icons/gi'
 const Banner = () => {
 
   const profile = {
-    imagem: '../imagens/Meliny & Wesley.svg',
+    imagem: '../imagens/Mel & Wes.png.jpg',
   }
   const links = {
     localization: 'https://www.google.com.br/maps/place/Av.+Dom+Jos%C3%A9+Andr%C3%A9+Coimbra,+1520+-+Marciano+Brand%C3%A3o,+Patroc%C3%ADnio+-+MG,+38740-000/@-18.9446518,-47.0045441,15z/data=!3m1!4b1!4m5!3m4!1s0x94afba6190720015:0x1c1d6cc851af332d!8m2!3d-18.944652!4d-46.9957893',
@@ -28,15 +28,15 @@ const Banner = () => {
       <img src={profile.imagem} alt='Fotografia de perfil dos noivos' />
       <main className='main'>
       <section className='simbol'>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
       <RiHeartsFill className='infinite' size={95} />
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
+      <GiVineFlower size={32} color="red" className='givineflower'/>
       </section>
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
