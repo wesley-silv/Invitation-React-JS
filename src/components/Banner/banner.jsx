@@ -5,7 +5,7 @@ import './banner.sass';
 import {ImWhatsapp} from 'react-icons/all';
 import {ImLocation} from 'react-icons/all';
 import {GiPresent} from 'react-icons/all';
-import {RiHeartsFill} from 'react-icons/all';
+import {RiHeartsFill, BsFillSuitHeartFill} from 'react-icons/all';
 import {FaRegHandPointDown} from 'react-icons/all';
 import {GiVineFlower} from 'react-icons/gi'
 
@@ -28,15 +28,15 @@ const Banner = () => {
       <img src={profile.imagem} alt='Fotografia de perfil dos noivos' />
       <main className='main'>
       <section className='simbol'>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       <RiHeartsFill className='infinite' size={95} />
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
-      <GiVineFlower size={32} color="#daa520" className='givineflower'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       </section>
       <h4>
         "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
