@@ -4,7 +4,7 @@
 @mixin font-title()
   font-style: italic
   font-size: 24px
-  background-color: #f1f1f1
+  background-color: #f3f3f3
   line-height: 45px
 
 @mixin button-style ()
@@ -28,8 +28,13 @@
     box-sizing: border-box
     padding: 1em .5em 0
     border-radius: 50px
-    
+    clip-path: circle()
+  
   .heart
+    &:hover
+      border-bottom: solid 2px 
+      padding-bottom: .2em
+  
   .infinite 
     color: #daa520
     animation: infinito infinite 7s linear
@@ -54,6 +59,8 @@
     letter-spacing: 3px
     text-shadow: 12px 15px 5px
     font-family: "Dancing Script", cursive
+    &:hover
+      color: red
 
   h4
     text-transform: uppercase
@@ -64,6 +71,7 @@
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
     box-shadow: 8px 8px 5px variables.$primary-color
+    
   p
     color: variables.$secundary-color
     margin: 40px
@@ -102,6 +110,16 @@
       opacity: .2
     to 
       opacity: 1
+
+  @keyframes slideOfWord 
+    from 
+      margin-left: 100%
+      width: 30%
+    to 
+      margin-left: 0%
+      width: 100%
+    
+  
 
 @media screen and (min-width: 914px)
   .banner
