@@ -31,7 +31,7 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <RiHeartsFill className='infinite' size={95} />
+      <RiHeartsFill className='infinite' size={90} />
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
