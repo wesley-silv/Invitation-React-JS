@@ -7,7 +7,6 @@ import {ImLocation} from 'react-icons/all';
 import {GiPresent} from 'react-icons/all';
 import {RiHeartsFill, BsFillSuitHeartFill} from 'react-icons/all';
 import {FaRegHandPointDown} from 'react-icons/all';
-import {GiVineFlower} from 'react-icons/gi'
 
 
 const Banner = () => {
@@ -39,7 +38,7 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
       </section>
       <h4>
-        "Assim, toda a casa cobriu de ouro, até acabar toda a casa."
+        "Se tardar espera-o, porque certamente virá, não tardará"
       </h4>
       <h1>
         Meliny Sara  <br/> & <br/> Wesley Silva
@@ -48,11 +47,18 @@ const Banner = () => {
         Convidam para cerimônia de seu casamento em um culto de glorificação a Deus
       </p>
       <p> A realizar-se no dia:</p>
-      <h1>
-        03 de Março de 2023
+      <h1 className='igreja'>
+        28 / Outubro / 2023
       </h1>
+
       <h2>
         Às 19:30 horas
+      </h2>
+      <h1>
+        Igreja Cristã Maranata
+      </h1>
+      <h2>
+        Ora vem Senhor Jesus
       </h2>
      <p>
         Click para acessar
