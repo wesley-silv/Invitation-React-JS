@@ -5,7 +5,7 @@ import './banner.sass';
 import {ImWhatsapp} from 'react-icons/all';
 import {ImLocation} from 'react-icons/all';
 import {GiPresent} from 'react-icons/all';
-import {RiHeartsFill, BsFillSuitHeartFill} from 'react-icons/all';
+import {RiHeartsFill, BsFillSuitHeartFill, BsFillPinMapFill} from 'react-icons/all';
 import {FaRegHandPointDown} from 'react-icons/all';
 
 
@@ -65,15 +65,15 @@ const Banner = () => {
       </p>
       <FaRegHandPointDown className='FaRegHandPointDown' size={40}/>
       <div className="links_container">
-        <a href={links.localization} alt='Localização pel o Google Maps' title='Localização' target={links.targetPage}>
-          <ImLocation size={30} />
-          Localização
+        <a href={links.localization} alt='Icon Point_Maps' title='Localização' target={links.targetPage}>
+          <BsFillPinMapFill size={32} />
+          <br /> Localização
         </a>
-        <a href={links.contact} alt='' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={30}/>  Confirmar</a>
+        <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={32}/>  <br /> Confirmar</a>
       </div>
-      <a href='' alt='Logo de presentes' title='Presentear' target={links.targetPage}>
-        <GiPresent size={36}/>
-        Presentear
+      <a href='' alt='Icons Present' title='Presentear' target={links.targetPage}>
+        <GiPresent size={39}/>
+        <br /> Presentear
       </a>
       </main>
     </div>
