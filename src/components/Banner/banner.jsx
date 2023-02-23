@@ -50,7 +50,6 @@ const Banner = () => {
       <h1 className='igreja'>
         28 / Outubro / 2023
       </h1>
-
       <h2>
         Às 19:30 horas
       </h2>
@@ -58,7 +57,7 @@ const Banner = () => {
         Igreja Cristã Maranata
       </h1>
       <h2>
-        Ora vem Senhor Jesus
+        O Senhor Jesus Vem 
       </h2>
      <p>
         Click para acessar
@@ -75,6 +74,9 @@ const Banner = () => {
         <GiPresent size={39}/>
         <br /> Presentear
       </a>
+      <p className='versicleBible'>
+        "Então, a nossa boca se encheu de riso, e a nossa língua, de cânticos; então, se dizia entre as nações: Grandes coisas fez o Senhor a estes. Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres." <br /> Salmos 126:2
+      </p>
       </main>
     </div>
   )
