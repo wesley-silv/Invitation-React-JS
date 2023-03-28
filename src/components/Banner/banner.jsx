@@ -24,18 +24,18 @@ const Banner = () => {
 
   return (
     <div className='banner'>
-      <img src={profile.imagem} alt='Fotografia de perfil dos noivos' />
+      <img src={profile.imagem} alt='Fotografia de perfil dos noivos' /> 
       <main className='main'>
       <section className='simbol'>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
       <RiHeartsFill className='infinite' size={90} />
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
-      <BsFillSuitHeartFill size={32} color="#daa520" className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
       </section>
       <h4>
         "Se tardar espera-o, porque certamente virá, não tardará"

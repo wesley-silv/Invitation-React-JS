@@ -1,4 +1,26 @@
 @use '../Styles/variables'
 
-@mixin font-text()
+@mixin font-title ()
+  font-style: italic
+  font-size: 24px
+  background-color: #f0f0f0
+  line-height: 45px
+
+@mixin button-style ()
+  color: variables.$secundary-color
+  padding: 1em
+  border-top-right-radius: 24px
+  border-bottom-left-radius: 24px
+
+  width: 200px
+  text-decoration: none
+  margin: 15px 25px
+  &:hover
+    border: solid medium
+    font-weight: bold
+    color: #daa520
+
+@mixin box-shadow()
+  box-shadow: -7px 5px 10px variables.$primary-color
+  
   

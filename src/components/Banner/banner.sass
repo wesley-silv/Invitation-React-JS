@@ -1,55 +1,42 @@
 @use '../../Styles/variables'
-
-
-@mixin font-title()
-  font-style: italic
-  font-size: 24px
-  background-color: #f0f0f0
-  line-height: 45px
-
-@mixin button-style ()
-  
-  color: variables.$secundary-color
-  padding: 1em
-  border: solid 2px variables.$secundary-color
-  border-radius: 18px
-  width: 200px
-  text-decoration: none
-  margin: 15px 25px
-  &:hover
-    border: solid 3px 
-    font-weight: bold
-    color: red
+@use '../../Styles/mixins'
 
 #root
   background-color: #f0f0f0
 .banner
-  @include font-title
+  @include mixins.font-title ()
   text-align: center
   color: variables.$secundary-color
   box-sizing: border-box
-  border: solid 8px #daa520
   img
     width:100%
     box-sizing: border-box
     padding: .7em .7em 0
-    border-radius: 50px
+    border-bottom-left-radius: 50px
+    border-top-right-radius: 50px
+
   
   .heart
-    box-shadow: 5px 5px 5px variables.$primary-color
-    padding: 1px
+    color: #daa520
+    box-shadow: 5px 5px 10px variables.$primary-color
+    padding: 2px
+    opacity: 0.9
     &:hover
-      border-bottom: solid 2px 
       padding-bottom: .2em
+      color: #ff0000
   
   .infinite 
     color: #daa520
     animation: infinito infinite 7s linear
-    border: solid 3px
-
+    border-radius: 100%
+    opacity: 0.9
     margin: 0
     padding: 5px
-    box-shadow: 5px 5px 5px variables.$primary-color
+    @include mixins.box-shadow()
+    
+    &:hover 
+      color: #ff0000
+      padding: 5px
   .main 
     padding: 1em 
   .simbol
@@ -74,13 +61,14 @@
   h4
     text-transform: uppercase
     font-style: italic
-    border-radius: 7px
     padding: 20px
     color: variables.$secundary-color
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
-    box-shadow: 5px 5px 7px variables.$primary-color
-    
+    @include mixins.box-shadow()
+    border-top-right-radius: 24px
+    border-bottom-left-radius: 24px
+        
   p
     color: variables.$secundary-color
     margin: 40px
@@ -90,22 +78,20 @@
     justify-content: center
     animation: presencupdown infinite 1.4s linear
     &:hover
-      color: red
+      color: #daa520
   .links_container
     a
-      @include button-style
+      @include mixins.button-style ()
       color: variables.$secundary-color
       text-shadow: 5px 5px 5px
   a
-    @include button-style
+    @include mixins.button-style () 
     display: inline-block
-    box-shadow: 8px 8px 5px variables.$primary-color
-    color: variables.$secundary-color
+    @include mixins.box-shadow()
     text-shadow: 5px 5px 5px
     &:hover
-      color: red
-      border: solid 3px red
-      
+      color: #daa520
+    
 
   @keyframes rotation 
     from
@@ -132,9 +118,7 @@
     to 
       margin-left: 0%
       width: 100%
-    
   
-
 @media screen and (min-width: 914px)
   .banner
     img
