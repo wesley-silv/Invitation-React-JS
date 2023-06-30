@@ -9,23 +9,19 @@
   color: variables.$secundary-color
   box-sizing: border-box
   img
-    width:100%
+    width: 100%
     box-sizing: border-box
     padding: .7em .7em 0
-    border-bottom-left-radius: 50px
-    border-top-right-radius: 50px
 
-  
   .heart
     color: #daa520
-    box-shadow: 5px 5px 10px variables.$primary-color
     padding: 2px
     opacity: 0.9
     &:hover
       padding-bottom: .2em
       color: #ff0000
-  
-  .infinite 
+
+  .infinite
     color: #daa520
     animation: infinito infinite 7s linear
     border-radius: 100%
@@ -33,12 +29,12 @@
     margin: 0
     padding: 5px
     @include mixins.box-shadow()
-    
-    &:hover 
-      color: #ff0000
+
+    &:hover
+      box-shadow: -5px 5px 10px #daa520
       padding: 5px
-  .main 
-    padding: 1em 
+  .main
+    padding: 1em
   .simbol
     display: flex
     justify-content: center
@@ -48,17 +44,15 @@
     padding: .2em
     color: variables.$secundary-color
     text-shadow: 5px 5px 5px
-  h1
-    animation: rotation infinite 7s linear
+    
+  .title
     color: variables.$terciary-color
     line-height: 50px
     letter-spacing: 3px
     text-shadow: 12px 15px 5px
     font-family: "Dancing Script", cursive
-    &:hover
-      color: red
 
-  h4
+  .subtitle
     text-transform: uppercase
     font-style: italic
     padding: 20px
@@ -68,7 +62,7 @@
     @include mixins.box-shadow()
     border-top-right-radius: 24px
     border-bottom-left-radius: 24px
-        
+
   p
     color: variables.$secundary-color
     margin: 40px
@@ -76,52 +70,40 @@
   .FaRegHandPointDown
     color: variables.$secundary-color
     justify-content: center
-    animation: presencupdown infinite 1.4s linear
-    &:hover
-      color: #daa520
   .links_container
     a
       @include mixins.button-style ()
       color: variables.$secundary-color
       text-shadow: 5px 5px 5px
   a
-    @include mixins.button-style () 
+    @include mixins.button-style ()
     display: inline-block
     @include mixins.box-shadow()
     text-shadow: 5px 5px 5px
     &:hover
       color: #daa520
-    
 
-  @keyframes rotation 
+  @keyframes rotation
     from
       transform: rotateY(0deg)
     to
       transform: rotateY(360deg)
 
   @keyframes infinito
-    from 
+    from
       transform: rotateY(0deg)
-    to 
+    to
       transform: rotateY(360deg)
 
-  @keyframes presencupdown
-    from 
-      opacity: .2
-    to 
-      opacity: 0.8
-
-  @keyframes slideOfWord 
-    from 
+  @keyframes slideOfWord
+    from
       margin-left: 100%
       width: 30%
-    to 
+    to
       margin-left: 0%
       width: 100%
-  
+
 @media screen and (min-width: 914px)
   .banner
     img
       width: 70%
-
-      

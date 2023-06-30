@@ -25,6 +25,7 @@ const Banner = () => {
   return (
     <div className='banner'>
       <img src={profile.imagem} alt='Fotografia de perfil dos noivos' /> 
+      
       <main className='main'>
       <section className='simbol'>
       <BsFillSuitHeartFill size={32}  className='heart'/>
@@ -37,30 +38,30 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32}  className='heart'/>
       <BsFillSuitHeartFill size={32}  className='heart'/>
       </section>
-      <h4>
+      <h4 className='subtitle'>
         "Se tardar espera-o, porque certamente virá, não tardará"
       </h4>
-      <h1>
+      <h1 className='title'>
         Meliny Sara  <br/> & <br/> Wesley Silva
       </h1>
-      <p>
+      <p className='text'>
         Convidam para cerimônia de seu casamento em um culto de glorificação a Deus
       </p>
-      <p> A realizar-se no dia:</p>
+      <p className='text'> A realizar-se no dia:</p>
       <h1 className='igreja'>
         28 / Outubro / 2023
       </h1>
       <h2>
         Às 19:30 horas
       </h2>
-      <h1>
+      <h1 className='title'>
         Igreja Cristã Maranata
       </h1>
       <h2>
         O Senhor Jesus Vem 
       </h2>
-     <p>
-        Click para acessar
+      <p className='text'>
+        Toque para acessar
       </p>
       <FaRegHandPointDown className='FaRegHandPointDown' size={40}/>
       <div className="links_container">

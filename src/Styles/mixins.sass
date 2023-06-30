@@ -8,17 +8,15 @@
 
 @mixin button-style ()
   color: variables.$secundary-color
-  padding: 1em
-  border-top-right-radius: 24px
-  border-bottom-left-radius: 24px
-
+  padding: .5em
+  border-radius: 16px
   width: 200px
   text-decoration: none
   margin: 15px 25px
   &:hover
-    border: solid medium
     font-weight: bold
     color: #daa520
+    box-shadow: -4px 4px 10px #daa520
 
 @mixin box-shadow()
   box-shadow: -7px 5px 10px variables.$primary-color
