@@ -2,6 +2,7 @@
 @use '../../Styles/mixins'
 
 #root
+  max-width: 100%
   background-color: #f0f0f0
 .banner
   @include mixins.font-title ()
@@ -14,8 +15,9 @@
     padding: .7em .7em 0
 
   .heart
+    box-sizing: border-box
+    margin: 0 2px
     color: #daa520
-    padding: 2px
     opacity: 0.9
     &:hover
       padding-bottom: .2em
@@ -29,6 +31,8 @@
     margin: 0
     padding: 5px
     @include mixins.box-shadow()
+    &:hover
+      color: #f00
 
     &:hover
       box-shadow: -5px 5px 10px #daa520
@@ -39,13 +43,15 @@
     display: flex
     justify-content: center
     align-items: center
-  h2
+
+  .hours, .maranata
+    font-size: 32px
     margin: 0
     padding: .2em
     color: variables.$secundary-color
     text-shadow: 5px 5px 5px
-    
-  .title
+
+  .title, .date
     color: variables.$terciary-color
     line-height: 50px
     letter-spacing: 3px
@@ -59,17 +65,17 @@
     color: variables.$secundary-color
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
-    @include mixins.box-shadow()
-    border-top-right-radius: 24px
-    border-bottom-left-radius: 24px
 
-  p
+  .text, .end_text
+
     color: variables.$secundary-color
     margin: 40px
     text-shadow: 5px 5px 5px
+
   .FaRegHandPointDown
     color: variables.$secundary-color
     justify-content: center
+
   .links_container
     a
       @include mixins.button-style ()
@@ -91,9 +97,9 @@
 
   @keyframes infinito
     from
-      transform: rotateY(0deg)
+      transform: rotatey(0deg)
     to
-      transform: rotateY(360deg)
+      transform: rotatey(360deg)
 
   @keyframes slideOfWord
     from
@@ -103,7 +109,7 @@
       margin-left: 0%
       width: 100%
 
-@media screen and (min-width: 914px)
+@media screen and (min-width: 1224px)
   .banner
     img
-      width: 70%
+      width: 60%
