@@ -55,10 +55,10 @@ const Banner = () => {
       <h1 className='title'>
         Igreja Cristã Maranata
       </h1>
-      <p className='maranata'>
-      Maranata! <br/> O Senhor Jesus Vem 
-      </p>
-      <p className='text'>
+      <marquee className='maranata' behavior="" direction=''>
+      Maranata! O Senhor Jesus Vem 
+      </marquee>
+      <p >
         Toque para acessar
       </p>
       <FaRegHandPointDown className='FaRegHandPointDown' size={40}/>
