@@ -60,20 +60,18 @@ const Banner = () => {
       Maranata! O Senhor Jesus Vem 
       </marquee>
       <hr />
-      <p >
+      <p className='text'>
         Toque para acessar
       </p>
-      <FaRegHandPointDown className='FaRegHandPointDown' size={35}/>
+      <FaRegHandPointDown className='FaRegHandPointDown' size={30}/>
       <div className="links_container">
         <a href={links.localization} alt='Icon Point_Maps' title='Localização' target={links.targetPage}>
-          <BsFillPinMapFill size={30} />
-          <br />
+          <BsFillPinMapFill size={28} />
         </a>
-        <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={30}/>  <br /></a>
+        <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={26}/></a>
       </div>
       <a href='' alt='Icons Present' title='Presentear' target={links.targetPage}>
-        <GiPresent size={38}/>
-        <br />
+        <GiPresent size={34}/>
       </a>
       <p className='end_text'>
         "Então, a nossa boca se encheu de riso, e a nossa língua, de cânticos; então, se dizia entre as nações: Grandes coisas fez o Senhor a estes. Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres." <br /> Salmos 126:2
