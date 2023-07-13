@@ -4,8 +4,6 @@
 #root
   max-width: 100%
   background-color: #f0f0f0
-body
-  font-size: 10px
   
 .banner
   @include mixins.font-title ()
@@ -29,7 +27,6 @@ body
   .infinite
     color: #daa520
     animation: infinito infinite 7s linear
-    border: solid 2px
     border-radius: 100%
     opacity: 0.9
     margin: 0
@@ -37,19 +34,15 @@ body
     &:hover
       color: #f00
 
-    &:hover
-      box-shadow: -5px 5px 10px #daa520
-      padding: 5px
   .main
     padding: 1em
+
   .simbol
     display: flex
     justify-content: center
     align-items: center
 
   .hours, .maranata
-    margin: 0
-    padding: .2em
     color: variables.$secundary-color
     text-shadow: 5px 5px 5px
 
@@ -61,15 +54,12 @@ body
     font-family: "Dancing Script", cursive
 
   .subtitle
-    font-style: italic
     color: variables.$secundary-color
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
 
   .text, .end_text
-
     color: variables.$secundary-color
-    margin: 40px
     text-shadow: 5px 5px 5px
 
   .FaRegHandPointDown

@@ -36,16 +36,17 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32}  className='heart'/>
       <BsFillSuitHeartFill size={32}  className='heart'/>
       </section>
-      <h3 className='subtitle'>
+      <h2 className='subtitle'>
         "Convite de Casamento"
-      </h3>
-      <h2 className='title'>
-        Meliny Sara  <br/> & <br/> Wesley Silva
       </h2>
+      <h1 className='title'>
+        Meliny Sara  <br/> & <br/> Wesley Silva
+      </h1>
       <p className='text'>
         Com a benção de Deus e de seus pais, nós, lhe convidamos a celebrar este momento de tão grande alegria conosco, em um culto de glorificação a Deus.
+        <hr />
+        A realizar-se no dia:
       </p>
-      <p className='text'> A realizar-se no dia:</p>
       <h2 className='date'>
         28 / Outubro / 2023
       </h2>
@@ -58,25 +59,26 @@ const Banner = () => {
       <marquee className='maranata' behavior="" direction=''>
       Maranata! O Senhor Jesus Vem 
       </marquee>
+      <hr />
       <p >
         Toque para acessar
       </p>
       <FaRegHandPointDown className='FaRegHandPointDown' size={35}/>
       <div className="links_container">
         <a href={links.localization} alt='Icon Point_Maps' title='Localização' target={links.targetPage}>
-          <BsFillPinMapFill size={32} />
+          <BsFillPinMapFill size={30} />
           <br />
         </a>
-        <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={32}/>  <br /></a>
+        <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={30}/>  <br /></a>
       </div>
       <a href='' alt='Icons Present' title='Presentear' target={links.targetPage}>
-        <GiPresent size={39}/>
+        <GiPresent size={38}/>
         <br />
       </a>
       <p className='end_text'>
         "Então, a nossa boca se encheu de riso, e a nossa língua, de cânticos; então, se dizia entre as nações: Grandes coisas fez o Senhor a estes. Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres." <br /> Salmos 126:2
       </p>
-
+      <hr />
       </main>
     </div>
   )
