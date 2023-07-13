@@ -44,9 +44,10 @@ const Banner = () => {
       </h1>
       <p className='text'>
         Com a benção de Deus e de seus pais, nós, lhe convidamos a celebrar este momento de tão grande alegria conosco, em um culto de glorificação a Deus.
-        <hr />
+        <br />
         A realizar-se no dia:
       </p>
+        <hr />
       <h2 className='date'>
         28 / Outubro / 2023
       </h2>
@@ -56,8 +57,8 @@ const Banner = () => {
       <h2 className='title'>
         Igreja Cristã Maranata
       </h2>
-      <marquee className='maranata' behavior="" direction=''>
-      Maranata! O Senhor Jesus Vem 
+      <marquee className='maranata' behavior="" direction='' truespeed='500ms'>
+      Maranata O Senhor Jesus Vem!
       </marquee>
       <hr />
       <p className='text'>

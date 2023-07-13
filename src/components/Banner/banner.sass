@@ -4,7 +4,7 @@
 #root
   max-width: 100%
   background-color: #f0f0f0
-  
+
 .banner
   @include mixins.font-title ()
   text-align: center
@@ -69,6 +69,7 @@
   .links_container
     a
       @include mixins.button-style ()
+      margin: .5em 10px
       color: variables.$secundary-color
       text-shadow: 5px 5px 5px
   a
@@ -76,6 +77,8 @@
     display: inline-block
     @include mixins.box-shadow()
     text-shadow: 5px 5px 5px
+    margin: .5em 10px
+
     &:hover
       color: #daa520
 
@@ -99,7 +102,7 @@
       margin-left: 0%
       width: 100%
 
-@media screen and (min-width: 1224px)
+@media screen and (min-width: 768px)
   .banner
     img
       width: 60%
