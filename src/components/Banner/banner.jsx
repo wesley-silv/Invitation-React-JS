@@ -36,32 +36,32 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32}  className='heart'/>
       <BsFillSuitHeartFill size={32}  className='heart'/>
       </section>
-      <h4 className='subtitle'>
-        "Casamento"
-      </h4>
-      <h1 className='title'>
+      <h3 className='subtitle'>
+        "Convite de Casamento"
+      </h3>
+      <h2 className='title'>
         Meliny Sara  <br/> & <br/> Wesley Silva
-      </h1>
+      </h2>
       <p className='text'>
         Com a benção de Deus e de seus pais, nós, lhe convidamos a celebrar este momento de tão grande alegria conosco, em um culto de glorificação a Deus.
       </p>
       <p className='text'> A realizar-se no dia:</p>
-      <h1 className='date'>
+      <h2 className='date'>
         28 / Outubro / 2023
-      </h1>
+      </h2>
       <p className='hours'>
         Às 19:30 horas
       </p>
-      <h1 className='title'>
+      <h2 className='title'>
         Igreja Cristã Maranata
-      </h1>
+      </h2>
       <marquee className='maranata' behavior="" direction=''>
       Maranata! O Senhor Jesus Vem 
       </marquee>
       <p >
         Toque para acessar
       </p>
-      <FaRegHandPointDown className='FaRegHandPointDown' size={40}/>
+      <FaRegHandPointDown className='FaRegHandPointDown' size={35}/>
       <div className="links_container">
         <a href={links.localization} alt='Icon Point_Maps' title='Localização' target={links.targetPage}>
           <BsFillPinMapFill size={32} />

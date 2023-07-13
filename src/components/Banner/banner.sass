@@ -29,11 +29,11 @@ body
   .infinite
     color: #daa520
     animation: infinito infinite 7s linear
+    border: solid 2px
     border-radius: 100%
     opacity: 0.9
     margin: 0
     padding: 5px
-    @include mixins.box-shadow()
     &:hover
       color: #f00
 
@@ -48,7 +48,6 @@ body
     align-items: center
 
   .hours, .maranata
-    font-size: 32px
     margin: 0
     padding: .2em
     color: variables.$secundary-color
@@ -62,9 +61,7 @@ body
     font-family: "Dancing Script", cursive
 
   .subtitle
-    text-transform: uppercase
     font-style: italic
-    padding: 20px
     color: variables.$secundary-color
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
