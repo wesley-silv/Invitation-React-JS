@@ -71,7 +71,7 @@ const Banner = () => {
         </a>
         <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={26}/></a>
       </div>
-      <a href='' alt='Icons Present' title='Presentear' target={links.targetPage}>
+      <a href='https://noivos.casar.com/wesley-e-meliny#/presentes' alt='Icons Present' title='Presentear' target={links.targetPage}>
         <GiPresent size={34}/>
       </a>
       <p className='end_text'>
