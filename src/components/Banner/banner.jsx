@@ -22,7 +22,7 @@ const Banner = () => {
 
   return (
     <div className='banner'>
-      <img src={profile.imagem} alt='Fotografia de perfil dos noivos' /> 
+      {/* <img src={profile.imagem} alt='Fotografia de perfil dos noivos' /> */}
       
       <main className='main'>
       <section className='simbol'>
