@@ -11,9 +11,12 @@
   color: variables.$secundary-color
   box-sizing: border-box
   img
-    width: 100%
+    width: 80%
     box-sizing: border-box
-    padding: .7em .7em 0
+    border-radius: 12%
+    box-shadow: 0 0 20px variables.$secundary-color
+    margin: 1.5em auto 0
+
 
   .heart
     box-sizing: border-box
@@ -57,6 +60,7 @@
     color: variables.$secundary-color
     font-family: "Dancing Script", cursive
     text-shadow: 5px 5px 5px
+    font-size: 32px
 
   .text, .end_text
     color: variables.$secundary-color
@@ -105,4 +109,5 @@
 @media screen and (min-width: 768px)
   .banner
     img
-      width: 60%
+      width: 50%
+      clip-path: circle()
