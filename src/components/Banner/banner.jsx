@@ -77,7 +77,17 @@ const Banner = () => {
       <p className='end_text'>
         "Então, a nossa boca se encheu de riso, e a nossa língua, de cânticos; então, se dizia entre as nações: Grandes coisas fez o Senhor a estes. Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres." <br /> Salmos 126:2
       </p>
-      <hr />
+      <section className='simbol'>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <RiHeartsFill className='infinite' size={90} />
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      <BsFillSuitHeartFill size={32}  className='heart'/>
+      </section>
       </main>
     </div>
   )
