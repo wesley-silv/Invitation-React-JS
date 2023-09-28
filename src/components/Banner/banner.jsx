@@ -36,6 +36,7 @@ const Banner = () => {
       <BsFillSuitHeartFill size={32}  className='heart'/>
       <BsFillSuitHeartFill size={32}  className='heart'/>
       </section>
+      <hr />
       <h2 className='subtitle'>
         "Convite de Casamento"
       </h2>
