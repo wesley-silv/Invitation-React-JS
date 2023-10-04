@@ -16,7 +16,7 @@ const Banner = () => {
   const links = {
     localization: 'https://www.google.com.br/maps/place/Av.+Dom+Jos%C3%A9+Andr%C3%A9+Coimbra,+1520+-+Marciano+Brand%C3%A3o,+Patroc%C3%ADnio+-+MG,+38740-000/@-18.9446518,-47.0045441,15z/data=!3m1!4b1!4m5!3m4!1s0x94afba6190720015:0x1c1d6cc851af332d!8m2!3d-18.944652!4d-46.9957893',
     contact: 'https://wa.me/553492540828?text=Olá Meliny e Wesley, agradeço por este convite, será uma honra poder celebrar este momento com vocês.',
-    presents: '',
+    presents: 'https://noivos.casar.com/wesley-e-meliny#/presentes',
     targetPage: 'blank',
   }
 
@@ -72,7 +72,7 @@ const Banner = () => {
         </a>
         <a href={links.contact} alt='Icon Whatsapp' title='Confirmação de presença' target={links.targetPage}><ImWhatsapp size={26}/></a>
       </div>
-      <a href='https://noivos.casar.com/wesley-e-meliny#/presentes' alt='Icons Present' title='Presentear' target={links.targetPage}>
+      <a href={links.presents} alt='Icons Present' title='Presentear' target={links.targetPage}>
         <GiPresent size={34}/>
       </a>
       <p className='end_text'>
